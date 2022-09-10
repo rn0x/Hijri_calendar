@@ -4,7 +4,7 @@ import path from 'path';
 export default function CrateHtml(today, Hijri, Gregorian, title, text) {
 	
     let __dirname = path.resolve();
-    let logo = fs.readFileSync(`${__dirname}/image/logo.png`);
+    let logo = fs.readFileSync(`${__dirname}/node_modules/@rn0x/hijri_calendar/image/logo.png`);
     let html = `<!DOCTYPE html>
     <html>
     <head>

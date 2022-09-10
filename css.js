@@ -4,7 +4,7 @@ import path from 'path';
 export default function css() {
 
     let __dirname = path.resolve();
-    let Vazirmatn_Regular = fs.readFileSync(`${__dirname}/font/Vazirmatn-Regular.ttf`).toString('base64');
+    let Vazirmatn_Regular = fs.readFileSync(`${__dirname}/node_modules/@rn0x/hijri_calendar/font/Vazirmatn-Regular.ttf`).toString('base64');
     let code = `
     
     @font-face {
