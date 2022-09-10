@@ -1,0 +1,35 @@
+{
+  "name": "@rn0x/hijri_calendar",
+  "version": "1.0.1",
+  "description": "Hijri_calendar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "rn0x",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "moment-hijri": "^2.1.2",
+    "puppeteer": "^17.1.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rn0x/@rn0x/hijri_calendar.git"
+  },
+  "keywords": [
+    "Hijri_calendar",
+    "Hijri",
+    "calendar",
+    "image calendar",
+    "image Hijri"
+  ],
+  "bugs": {
+    "url": "https://github.com/rn0x/Hijri_calendar/issues"
+  },
+  "homepage": "https://github.com/rn0x/Hijri_calendar#readme"
+}
