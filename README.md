@@ -21,14 +21,14 @@ let text = 'اللّهم اغفر لي، وإهدني، وأرزقني، وعا�
 
 
 await Hijri_calendar(title, text, filename).then(e => {
-    console.log(e); // return image path
+    console.log(e); // return - filename - today - Hijri - Gregorian
 });
 
 //or
 
 let calendar = await Hijri_calendar(title, text, filename);
 
-console.log(calendar);  // return image path
+console.log(calendar);  // return - filename - today - Hijri - Gregorian
 
 ```
 
